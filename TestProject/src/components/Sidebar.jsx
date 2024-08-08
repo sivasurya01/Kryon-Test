@@ -44,7 +44,7 @@ function Sidebar({
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <div className="p-3" style={{ overflow: "auto" }}>
+          <div className="p-2">
             <Form>
               <div>
                 <Form.Label htmlFor="segmentname" className="fw-bold">
@@ -87,9 +87,6 @@ function Sidebar({
                         <Form.Select
                           id={`dropdown-${index}`}
                           aria-label="Default select example"
-                          onChange={(e) => {
-                            const selectedValue = e.target.value;
-                          }}
                         >
                           {schemaOptions.map((option, optionIndex) => (
                             <option
@@ -146,7 +143,7 @@ function Sidebar({
                 </div>
               </div>
 
-              <div className="d-flex gap-2 align-items-end">
+              <div className="d-flex gap-2 bottams">
                 <div>
                   <Button
                     variant="success"
