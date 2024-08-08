@@ -4,6 +4,10 @@
 
 - npm create vite@latest
 
+<!-- npm install -->
+
+- npm install
+
 <!-- using icons -->
 
 - npm install react-icons
