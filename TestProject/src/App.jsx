@@ -41,7 +41,6 @@ function App() {
   };
 
   const handleRemoveRow = (index) => {
-    console.log(index);
     setRowCount((prevRowCount) => prevRowCount.filter((_, i) => i !== index));
   };
 
