@@ -12,13 +12,8 @@
 }
 
 .bottams {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  gap: 10px;
-  padding: 30px;
+  position: fixed;
+  bottom: 10px;
 }
 .boxborder {
   border: 2px solid lightblue;
